@@ -74,8 +74,9 @@ body {
   background-color: #b0b1b8;
 }
 .buttons-actions {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .btn-post {
